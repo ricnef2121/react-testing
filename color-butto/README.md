@@ -22,3 +22,12 @@ expect(some).toBeInTheDocument();
 _toBeInTheDocument_ verifica que algo exista dentro del documento o de nuestra vista.
 
 expect(some).toBeInTheDocument(); = se espera que some este en el documento
+
+## TDD (Test-Driven Development)
+
+- Se escriben las pruebas antes de escribir el codigo
+    - escribimos el codigo para que pase las pruebas
+- "red-green" testing
+    - Se crean test que fallen antes de escribir el codigo
+    - Se escribe el codigo
+    - Se escriben las pruebas que van a pasar el test
